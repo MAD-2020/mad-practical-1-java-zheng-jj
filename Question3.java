@@ -11,6 +11,9 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter number: ");
+    Integer square = in.nextInt();
+    in.close();
+    System.out.println(String.valueOf(square)+" times "+ String.valueOf(square) +" = "+ String.valueOf(square*square));
   }
 }
